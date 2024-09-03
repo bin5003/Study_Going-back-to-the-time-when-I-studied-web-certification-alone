@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>20240903 기록</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        color: #3e3e3e;
+        font-weight: 600;
+      }
+      .wrap {
+        display: flex;
+      }
+      aside {
+        width: 200px;
+        height: 800px;
+      }
+      header {
+        width: 200px;
+        height: 800px;
+        background: coral;
+      }
+      header h1 {
+        width: 200px;
+        height: 200px;
+        line-height: 200px;
+        background-color: aqua;
+      }
+      header nav {
+        width: 200px;
+        height: 600px;
+        line-height: 600px;
+        background-color: antiquewhite;
+      }
+      section {
+        width: 1000px;
+        height: 400px;
+        line-height: 300px;
+        background-color: aquamarine;
+      }
+      .content {
+        width: 1000px;
+        height: 300px;
+        display: flex;
+        line-height: 300px;
+      }
+      .content > div {
+        width: calc(100% / 3);
+        height: 300px;
+      }
+      .content .notice {
+        background-color: blueviolet;
+      }
+      .content .galler {
+        background-color: antiquewhite;
+      }
+      .content .popup {
+        background-color: rgb(175, 96, 0);
+      }
+      footer {
+        display: flex;
+        width: 100%;
+        line-height: 100px;
+      }
+      footer h2 {
+        width: 100px;
+        height: 100px;
+        background-color: blanchedalmond;
+      }
+      footer .copy {
+        width: 800px;
+        background-color: cadetblue;
+      }
+      footer .sns {
+        width: 100px;
+        background-color: cornflowerblue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <aside>
+        <header>
+          <h1>로고</h1>
+          <nav>메뉴</nav>
+        </header>
+      </aside>
+      <div class="container">
+        <section>이미지슬라이드</section>
+        <div class="content">
+          <div class="notice">공지</div>
+          <div class="galler">갤러리</div>
+          <div class="popup">팝업</div>
+        </div>
+        <footer>
+          <h2>로고</h2>
+          <div class="copy">copyright</div>
+          <div class="sns">SNS</div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
